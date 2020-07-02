@@ -1,15 +1,18 @@
 # Objetivo
-Apresentar 3 testes demonstrando boas praticas de codigo.
+Apresentar o teste solicitado demonstrando boas práticas de código com a linguagem java e selenium.
 
-O Projeto AutomationTesting(nome do site) trata-se de um teste efetuado com javasistema sob arquitetura Java/Spring Boot, configuracao de dependencia em Maven e banco de dados H2 persistido em unidade de disco do Windows para disponibilizacao de um serviço HTTP. 
+O Projeto getnet-test trata-se de um projeto de testes efetuado com java e selenium webdriver, utlizado boas práticas de código, page objects, e configuração de dependência em Maven persistido em unidade de disco do Windows para disponibilizacao de um serviço HTTP. 
 
 ## Testes efetuados:
-- Efetuar login;
-- Registrar um usuário na página principal;
-- Selecionar um determinado produto, adicionar na lista, validar se foi adicionado e validar se o valor e o produto estão corretos no carrinho;
+Passos:
 
-## Teste Bônus:
-- Ler o conteúdo de um alert e clicar em OK.
+- Acessar o site: https://site.getnet.com.br/
+- No campo de busca(LUPA), pesquisar por "superget"
+- No resultado da busca, clicar no link " Como posso abrir uma conta SuperGe?"
+– Verificar se a modal foi aberta com a mensagem “Como posso abrir uma conta SuperGet?"
+
+## Observação:
+O teste original solicitava o link: "como faço a portabilidade da minha maquininha" porém o mesmo não se encontra disponível.
 
 # 1 - Executando os testes via Maven:
 
@@ -39,4 +42,4 @@ Estão disponíveis os drivers chromedriver e geckodriver. Necessário colocar a
 
 Por configuração, neste momento está rodando com o firefox. Caso deseja alterar, necessário alterar a propriedade na classe br.sc.rafael.core.propriedade.java para:
 
-public static Browsers browser = Browsers.FIREFOX;
+public static Browsers browser = Browsers.CHROME;
