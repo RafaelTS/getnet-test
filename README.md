@@ -16,9 +16,9 @@ O teste original solicitava o link: "como faço a portabilidade da minha maquini
 
 # 1 - Executando os testes via Maven:
 
-Observação: os passos abaixo foram montandos para Windows.
+Observação: os passos abaixo são para o sistema operacional Windows.
 
-## 1.1 Pre-requisistos
+## 1.1 Pré-requisistos
 Para construir e rodar a aplicação você precisa de:
 - [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Maven 3.6.3](https://maven.apache.org)
