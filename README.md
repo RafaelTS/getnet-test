@@ -1,7 +1,7 @@
 # Objetivo
 Apresentar o teste solicitado demonstrando boas práticas de código com a linguagem java e selenium.
 
-O Projeto getnet-test trata-se de um projeto de testes efetuado com java e selenium webdriver, utlizado boas práticas de código, page objects, e configuração de dependência em Maven persistido em unidade de disco do Windows para disponibilizacao de um serviço HTTP. 
+O Projeto getnet-test trata-se de um projeto de testes efetuado com java e selenium webdriver, utlizando boas práticas de código como page objects e configuração de dependência em Maven persistido em unidade de disco do Windows para disponibilizacao de um serviço HTTP. 
 
 ## Testes efetuados:
 Passos:
