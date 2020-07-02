@@ -8,8 +8,8 @@ Passos:
 
 - Acessar o site: https://site.getnet.com.br/
 - No campo de busca(LUPA), pesquisar por "superget"
-- No resultado da busca, clicar no link " Como posso abrir uma conta SuperGe?"
-– Verificar se a modal foi aberta com a mensagem “Como posso abrir uma conta SuperGet?"
+- No resultado da busca, clicar no link " Como posso abrir uma conta SuperGet?"
+- Verificar se a modal foi aberta com a mensagem “Como posso abrir uma conta SuperGet?"
 
 ## Observação:
 O teste original solicitava o link: "como faço a portabilidade da minha maquininha" porém o mesmo não se encontra disponível.
