@@ -31,7 +31,7 @@ Para construir e rodar a aplicação você precisa de:
 1.2.3 - Os arquivos chromedriver.exe e geckodriver.exe devem ser colocados na raiz do projeto.
 
 1.2.4 - Executando maven:
-- Pelo prompt-dos, navegue até a pasta raiz;
+- Pelo cmd (DOS), navegue até a pasta raiz;
 - Execute o comando "mvn test" e pressione enter.
 
 mvn test
